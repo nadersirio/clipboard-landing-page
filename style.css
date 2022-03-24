@@ -1,0 +1,403 @@
+body {
+  font-family: "Bai Jamjuree";
+  background-image: url("./images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: hsl(201, 11%, 66%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: end;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.imagem1pai {
+  display: flex;
+  justify-content: center;
+  margin: 90px 0px 70px;
+}
+
+.info1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+h1 {
+  font-size: 36px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 900;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.info1 p {
+  font-weight: 100;
+  color: hsl(201, 11%, 66%);
+  line-height: 1.5;
+  text-align: center;
+  margin: 15px 0px 20px;
+  width: 45%;
+}
+
+.botoes {
+  display: flex;
+}
+
+.botaoVerde {
+  padding: 15px 35px 12px 35px;
+  background-color: hsl(171, 66%, 44%);
+  text-decoration-color: white;
+  border-radius: 50px;
+  color: white;
+  border: solid 0px;
+  border-bottom: solid hsl(171deg 100% 28%) 3px;
+  box-shadow: hsl(171deg 100% 30%) 0px 8px 15px -10px;
+  margin: 10px 5px 11px 5px;
+  font-weight: 100;
+}
+
+.botaoAzul {
+  padding: 15px 35px 12px 35px;
+  background-color: hsl(233, 100%, 69%);
+  text-decoration-color: white;
+  border-radius: 50px;
+  color: white;
+  border: solid 0px;
+  box-shadow: hsl(233deg 98% 44%) 0px 3px 2px;
+  margin: 10px 5px 15px 5px;
+  font-weight: 100;
+}
+
+.botaoVerde:hover {
+  box-shadow: hsl(171, 38%, 73%) 0px 8px 15px -10px;
+  background-color: hsl(171, 38%, 73%);
+  backdrop-filter: blur(1.5em);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.botaoAzul:hover {
+  box-shadow: hsl(233, 95%, 78%) 0px 3px 2px;
+  background-color: hsl(233, 95%, 78%);
+  backdrop-filter: blur(1.5em);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.info2 {
+  margin: 50px 1px 15px 1px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 31px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 900;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.info2 p {
+  font-weight: 100;
+  color: hsl(201, 11%, 66%);
+  line-height: 1.5;
+  text-align: center;
+  margin: 15px 0px 50px 0px;
+  width: 46%;
+}
+
+.info3Pai {
+  font-weight: 100;
+  width: 100%;
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.imagem2 {
+  width: 96%;
+  margin: 0px 0px 30px -33px;
+}
+
+.info3Filho {
+  margin: 4% 17% 0px 7%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-titulo {
+  font-size: 24px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 900;
+  margin: 20px 0px 15px 0px;
+}
+
+.info3Filho p {
+  line-height: 1.8;
+  margin: 0px 0px 40px 0px;
+}
+
+.info4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.info4 h4 {
+  font-size: 31px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 900;
+  margin: 3% 0px 3% 0px;
+  text-align: center;
+}
+
+.info4 p {
+  margin: 0px 0px 10% 0px;
+  text-align: center;
+  width: 70%;
+  line-height: 1.6;
+}
+
+.imagem3 {
+  width: 95%;
+}
+
+.ajusteRapido {
+  width: 75%;
+  text-align: center;
+}
+
+.ajusteRapido p {
+  line-height: 1.7;
+  margin-bottom: 6%;
+}
+
+h4 {
+  font-size: 31px;
+  font-weight: 900;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.icons {
+  width: 35px;
+  height: 30px;
+}
+
+.info5Pai {
+  display: flex;
+  width: 76%;
+}
+
+.info5Filho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.info5Filho h5 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 900;
+  font-size: 24px;
+  margin: 40px 0px 20px 0px;
+  text-align: center;
+}
+
+.info5Filho p {
+  line-height: 1.7;
+  text-align: center;
+  margin: 0px 1% 10% 1%;
+}
+
+.iconsPai {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 5%;
+}
+
+.icons2 {
+  margin: 50px 50px 50px;
+  width: 140px;
+}
+
+.info6 {
+  text-align: center;
+}
+
+.info6 h5 {
+  font-weight: 900;
+  color: hsl(210, 10%, 33%);
+  font-size: 31px;
+  margin-bottom: 2%;
+}
+
+.info6 p {
+  font-weight: 100;
+  margin-bottom: 5%;
+  line-height: 1.6;
+  width: 65%;
+  margin: 10px 0px 3% 17%;
+}
+
+footer {
+  background-color: hsl(0deg 0% 95%);
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer {
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.imgFinal {
+  width: 50px;
+  margin: 40px;
+}
+
+h6 {
+  margin: 20px 30px 20px 30px;
+  color: hsl(0, 0%, 50%);
+  font-weight: 400;
+}
+
+h6 a {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%)
+}
+
+h6 a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.iconsFooter {
+  margin: 10px;
+  fill: #4C545C;
+}
+
+.iconsFooter:hover svg {
+  fill: hsl(171, 66%, 44%);
+}
+
+.customH6 {
+  margin-bottom: 54px;
+}
+
+
+/*Versão Mobile-------------------------------------------------------------------------------*/
+
+@media (max-width: 700px) {
+  .imagem2 {
+    margin: 2%;
+  }
+  .botaoAzul {
+    padding: 15px 85px 12px 85px;
+    margin: 10px 5px 15px 5px;
+  }
+  .botaoVerde {
+    padding: 15px 85px 12px 85px;
+    margin: 10px 5px 12px 5px;
+  }
+  .info1 p {
+    width: 91%;
+    line-height: 1.8;
+  }
+  .botoes {
+    flex-direction: column;
+  }
+  .info2 p {
+    width: 80%;
+  }
+  .info3Pai {
+    flex-direction: column;
+    text-align: center;
+    width: 330px;
+    margin-bottom: 13%;
+  }
+  .info3Filho {
+    margin: 45px 0px 50px 0px;
+  }
+  .info3Filho p {
+    margin: 0px 10px 40px 10px;
+  }
+  .sub-titulo {
+    text-align: center;
+    margin: 10px 0px 15px 0px;
+  }
+  .info4 {
+    margin-bottom: 25%;
+  }
+  .info4 p {
+    margin: 10px 0px 15% 0px;
+    width: 85%;
+    line-height: 1.8;
+  }
+  .ajusteRapido {
+    margin-bottom: 20%;
+  }
+  h4 {
+    margin-bottom: 15px;
+  }
+  .info5Pai {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .info5Filho p {
+    width: 20em;
+    margin: 0px 1% 15% 1%;
+  }
+  .iconsPai {
+    flex-direction: column;
+    margin-bottom: 10%;
+  }
+  .icons2 {
+    margin: 50px 50px 25px;
+    width: 140px;
+  }
+  .info6 h5 {
+    width: 98%;
+    margin-top: 30%;
+  }
+  .info6 p {
+    margin: 3% 0% 3% 10%;
+    width: 80%;
+  }
+  footer {
+    text-align: center;
+    display: revert;
+    width: 100%;
+    margin-top: 30%;
+  }
+  .footer {
+    display: revert;
+    width: 100%;
+  }
+  .iconsFooter {
+    margin: 10px 10px 12%;
+  }
+  .customH6 {
+    margin-bottom: 50px;
+  }
+  h6 {
+    margin: 10px 30px 20px 30px;
+  }
+}
