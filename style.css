@@ -391,8 +391,12 @@ h6 a:hover {
     display: revert;
     width: 100%;
   }
+  .iconsFooterPai {
+    margin-bottom: 10%;
+  }
   .iconsFooter {
     margin: 10px 10px 12%;
+    margin-bottom: 10%;
   }
   .customH6 {
     margin-bottom: 50px;
