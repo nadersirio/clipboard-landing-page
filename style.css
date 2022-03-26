@@ -1,16 +1,21 @@
 body {
   font-family: "Bai Jamjuree";
+  color: hsl(201, 11%, 66%);
+}
+
+.header-img {
   background-image: url("./images/bg-header-desktop.png");
   background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: hsl(201, 11%, 66%);
 }
 
 .attribution {
   font-size: 11px;
-  text-align: end;
+  text-align: center;
+  padding: 4px 0px;
 }
 
 .attribution a {
@@ -78,6 +83,7 @@ h1 {
 
 .botaoVerde:hover {
   box-shadow: hsl(171, 38%, 73%) 0px 8px 15px -10px;
+  border-bottom: solid hsl(171, 38%, 73%) 3px;
   background-color: hsl(171, 38%, 73%);
   backdrop-filter: blur(1.5em);
   transition: 0.5s;
@@ -121,7 +127,7 @@ h2 {
   font-weight: 100;
   width: 100%;
   display: flex;
-  margin-bottom: 5%;
+  margin-bottom: 70px;
 }
 
 .imagem2 {
@@ -130,7 +136,7 @@ h2 {
 }
 
 .info3Filho {
-  margin: 4% 17% 0px 7%;
+  margin: 50px 270px 0px 100px;
   display: flex;
   flex-direction: column;
 }
@@ -158,29 +164,27 @@ h2 {
   font-size: 31px;
   color: hsl(210, 10%, 33%);
   font-weight: 900;
-  margin: 3% 0px 3% 0px;
+  margin: 45px 0px 45px 0px;
   text-align: center;
 }
 
 .info4 p {
-  margin: 0px 0px 10% 0px;
+  margin-bottom: 140px;
   text-align: center;
-  width: 70%;
   line-height: 1.6;
 }
 
 .imagem3 {
-  width: 95%;
+  width: 100%;
 }
 
 .ajusteRapido {
-  width: 75%;
   text-align: center;
 }
 
 .ajusteRapido p {
   line-height: 1.7;
-  margin-bottom: 6%;
+  margin: 0px 30px 90px 30px;
 }
 
 h4 {
@@ -198,7 +202,6 @@ h4 {
 
 .info5Pai {
   display: flex;
-  width: 76%;
 }
 
 .info5Filho {
@@ -219,15 +222,14 @@ h4 {
 .info5Filho p {
   line-height: 1.7;
   text-align: center;
-  margin: 0px 1% 10% 1%;
+  margin-bottom: 45px;
 }
 
 .iconsPai {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  margin-bottom: 5%;
+  margin-bottom: 70px;
 }
 
 .icons2 {
@@ -243,15 +245,14 @@ h4 {
   font-weight: 900;
   color: hsl(210, 10%, 33%);
   font-size: 31px;
-  margin-bottom: 2%;
+  margin-bottom: 30px;
 }
 
 .info6 p {
   font-weight: 100;
   margin-bottom: 5%;
   line-height: 1.6;
-  width: 65%;
-  margin: 10px 0px 3% 17%;
+  margin: 0px 400px 30px 400px;
 }
 
 footer {
@@ -307,7 +308,7 @@ h6 a:hover {
 
 @media (max-width: 700px) {
   .imagem2 {
-    margin: 2%;
+    margin: 28px;
   }
   .botaoAzul {
     padding: 15px 85px 12px 85px;
@@ -331,13 +332,12 @@ h6 a:hover {
     flex-direction: column;
     text-align: center;
     width: 330px;
-    margin-bottom: 13%;
   }
   .info3Filho {
-    margin: 45px 0px 50px 0px;
+    margin: 45px 0px 50px 40px;
   }
   .info3Filho p {
-    margin: 0px 10px 40px 10px;
+    margin: 0px 0px 40px 0px;
   }
   .sub-titulo {
     text-align: center;
@@ -351,9 +351,6 @@ h6 a:hover {
     width: 85%;
     line-height: 1.8;
   }
-  .ajusteRapido {
-    margin-bottom: 20%;
-  }
   h4 {
     margin-bottom: 15px;
   }
@@ -363,11 +360,9 @@ h6 a:hover {
   }
   .info5Filho p {
     width: 20em;
-    margin: 0px 1% 15% 1%;
   }
   .iconsPai {
     flex-direction: column;
-    margin-bottom: 10%;
   }
   .icons2 {
     margin: 50px 50px 25px;
@@ -375,28 +370,26 @@ h6 a:hover {
   }
   .info6 h5 {
     width: 98%;
-    margin-top: 30%;
   }
   .info6 p {
-    margin: 3% 0% 3% 10%;
+    margin: 30px 0px 35px 35px;
     width: 80%;
   }
   footer {
     text-align: center;
     display: revert;
     width: 100%;
-    margin-top: 30%;
+    margin-top: 64px;
   }
   .footer {
     display: revert;
     width: 100%;
   }
   .iconsFooterPai {
-    margin-bottom: 10%;
+    padding-bottom: 24px;
   }
   .iconsFooter {
-    margin: 10px 10px 12%;
-    margin-bottom: 10%;
+    margin: 10px 10px;
   }
   .customH6 {
     margin-bottom: 50px;
